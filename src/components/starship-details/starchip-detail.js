@@ -1,7 +1,9 @@
 import React from "react";
 
 const StarshipDetail = () => {
-  return
+  return (
+    <div></div>
+  )
 };
 
 export default StarshipDetail;

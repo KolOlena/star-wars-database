@@ -42,7 +42,7 @@ export default class PersonDetails extends Component {
     return (
       <div className="person-details card">
         <img className="person-image"
-             src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`} />
+             src={`https://starwars-visualguide.com/assets/img/characters/${id}.jpg`} alt={'person'}/>
         <div className="card-body">
           <h4>{name}</h4>
           <ul className="list-group list-group-flush">
